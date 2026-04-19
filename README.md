@@ -24,12 +24,38 @@ Layer 4 : Output Layer ( 10 neurons )
 ```
 The first 3 layers make use of a ReLU function as the activation function. The last layer makes use of a Softmax Function as the activation function.
 
+## Tech Stack :computer:
+```
+1. Python
+2. Tensorflow
+3. Keras
+```
+
+## Skills :mortar_board:
+```
+1. Python Programming
+2. Deep Learning
+3. Artificial Neural Networks (ANN)
+4. Model Building from Scratch using Tensorflow/Keras libraries
+5. GPU Acceleration
+```
+
+## Pre-Requisites :white_check_mark:
+```
+1. Python 3.10
+2. 
+```
+
 ## Get Started :rocket:
 
 To get started simply take the steps below :
 ```
 git clone 
-cd simple_ann/training
+cd simple_ann
+python -m venv .venv
+.venv\Scripts\activate #If on windows, macOS requires : source .venv/bin/activate
+pip install tensorflow==2.10.1
+cd training
 python model_train.py --batch_size <> --epochs <> --learning_rate <>
 ```
 Replace <> above with your own values. Sample values:
