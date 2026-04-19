@@ -45,5 +45,5 @@ The training conducted with the above sample values provide an accuracy of aroun
 
 ## Author :email:
 
-Yash Mahesh Bangera
+Yash Mahesh Bangera <br>
 Email : yashmaheshbangera.work@gmail.com
