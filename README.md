@@ -43,7 +43,7 @@ The first 3 layers make use of a ReLU function as the activation function. The l
 ## Pre-Requisites :white_check_mark:
 ```
 1. Python 3.10
-2. 
+2. Visual Studio Code 
 ```
 
 ## Get Started :rocket:
@@ -64,6 +64,13 @@ Batch Size : 64
 Epochs : 100
 Learning Rate : 0.05
 ``` 
+
+In addition to the above, you can also test the model built using Keras. Simply use the following commands:
+```
+cd <Root folder>
+python simple_ann.py
+```
+Feel free to change the value of epochs in line 22 of `simple_ann.py`.
 
 ## Results :white_check_mark:
 
